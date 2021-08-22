@@ -16,6 +16,8 @@ git clone https://github.com/CanisCyril/the-insurance-emporium-task.git
 4. Run the command: npm install
 5. Run the command: composer install
 
+Note - Composer may take some time while "generating optimized autoload files". If it hangs for over 10 minutes, try run composer dump-autoload and then composer install again.
+
 ## Commands
 
 Command to export salary CSV: php artisan salary:export
