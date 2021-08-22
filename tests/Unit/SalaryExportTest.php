@@ -18,7 +18,7 @@ class SalaryExportTest extends TestCase
     {
         $filename = 'exports/salary-export-' . Carbon::now()->format('Y-m-d') . '.csv';
 
-		Excel::fake(); //fakeing execution for testing
+		Excel::fake(); //faking execution for testing
 
 		Excel::store(new SalaryExportData, $filename); //this will not actually store the file
 

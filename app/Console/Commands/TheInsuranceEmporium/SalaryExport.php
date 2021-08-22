@@ -41,7 +41,6 @@ class SalaryExport extends Command
 	public function handle()
 	{
 		$this->export();
-		// $this->can_store_salary_export_data_export();
 	}
 
 	public function export() 
@@ -49,11 +48,8 @@ class SalaryExport extends Command
 
 		$filename = 'exports/salary-export-' . Carbon::now()->format('Y-m-d') . '.csv';
 
+		echo 'CSV Exported';
+		
 		return Excel::store(new SalaryExportData, $filename);
 	}
-
-	/**
-* @test
-*/
-	
 }
