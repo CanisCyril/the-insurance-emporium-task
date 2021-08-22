@@ -11,13 +11,17 @@ git clone https://github.com/CanisCyril/the-insurance-emporium-task.git
 ## Setup Instructions
 
 1. Run terminal as administrator (may potentially cause issues if not ran as admin).
-2. Path to project folder.
-3. Run the command: composer install
+2. Git Clone.
+3. Path to project folder.
 4. Run the command: npm install
+5. Run the command: composer install
 
 ## Commands
 
 Command to export salary CSV: php artisan salary:export
+
+The file will be placed under the-insurance-emporium-task\storage\app\exports.
+
 Command to test salary export: php artisan test
 
 ## Files that I have written/editted.
