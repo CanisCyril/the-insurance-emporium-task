@@ -6,7 +6,7 @@
 
 ### Git Clone
 ```bash
-https://github.com/CanisCyril/the-insurance-emporium-task.git
+git clone https://github.com/CanisCyril/the-insurance-emporium-task.git
 ```
 ## Setup Instructions
 
